@@ -1,0 +1,19 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfstate.*
+terraform.lock.hcl
+
+# Чувствительные данные
+terraform.tfvars
+*.tfvars
+secrets.tfvars
+
+# Ключи SSH
+*.pem
+id_terraform*
+*.pub
+
+# Логи
+*.log
